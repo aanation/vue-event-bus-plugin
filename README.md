@@ -10,7 +10,7 @@
 import eventBusPlugin from 'event-bus-plugin'; 
 import Vue from 'vue'; 
 import App from './App';
-import router from './router;
+import router from './router';
 import store from './store';
 
 Vue.use(eventBusPlugin); 
@@ -32,7 +32,7 @@ const app = new Vue({
 import eventBusPlugin from 'event-bus-plugin'; 
 import Vue from 'vue'; 
 import App from './App';
-import createRouter from './router;
+import createRouter from './router';
 import createStore from './store';
 
 Vue.use(eventBusPlugin);
