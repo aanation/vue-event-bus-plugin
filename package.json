@@ -1,0 +1,24 @@
+{
+  "name": "event-bus-plugin",
+  "version": "1.0.0",
+  "description": "It inject event-bus to the root Vue instance",
+  "main": "dist/event-bus.min.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "vuejs",
+    "event-bus",
+    "ssr"
+  ],
+  "author": "agris",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {}
+}
