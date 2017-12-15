@@ -5,7 +5,7 @@ export default {
     input: 'src/event-bus.js',
     output: {
       file: 'dist/bundle.js',
-      format: 'es'
+      format: 'cjs'
     }, 
     plugins: [
         babel({
