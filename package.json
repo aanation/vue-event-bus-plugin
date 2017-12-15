@@ -1,6 +1,6 @@
 {
   "name": "event-bus-plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "It inject event-bus to the root Vue instance",
   "main": "dist/event-bus.min.js",
   "scripts": {
