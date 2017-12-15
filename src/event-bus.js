@@ -1,7 +1,7 @@
 export default {
     install(Vue) {
         Vue.mixin({
-            beforeCreated: function() {
+            beforeCreate: function() {
                 const options = this.$options
                 if (options.bus) {
                   this.$bus = options.bus; 
